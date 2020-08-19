@@ -1,9 +1,7 @@
 ---
 language: 
-- zh
-- en
-- cmn
-- yue
+-zh
+-en
 
 tags:
 - translation
@@ -46,6 +44,16 @@ license: apache-2.0
 
 - tags: ['translation']
 
+- languages: ['zh', 'en']
+
+- src_constituents: {'cmn_Hans', 'nan', 'nan_Hani', 'gan', 'yue', 'cmn_Kana', 'yue_Hani', 'wuu_Bopo', 'cmn_Latn', 'yue_Hira', 'cmn_Hani', 'cjy_Hans', 'cmn', 'lzh_Hang', 'lzh_Hira', 'cmn_Hant', 'lzh_Bopo', 'zho', 'zho_Hans', 'zho_Hant', 'lzh_Hani', 'yue_Hang', 'wuu', 'yue_Kana', 'wuu_Latn', 'yue_Bopo', 'cjy_Hant', 'yue_Hans', 'lzh', 'cmn_Hira', 'lzh_Yiii', 'lzh_Hans', 'cmn_Bopo', 'cmn_Hang', 'hak_Hani', 'cmn_Yiii', 'yue_Hant', 'lzh_Kana', 'wuu_Hani'}
+
+- tgt_constituents: {'eng'}
+
+- src_multilingual: False
+
+- tgt_multilingual: False
+
 - prepro:  normalization + SentencePiece (spm32k,spm32k)
 
 - url_model: https://object.pouta.csc.fi/Tatoeba-MT-models/zho-eng/opus-2020-07-17.zip
@@ -82,8 +90,8 @@ license: apache-2.0
 
 - helsinki_git_sha: 480fcbe0ee1bf4774bcbe6226ad9f58e63f6c535
 
-- transformers_git_sha: 46e9f53347bbe9e989f0335f98465f30886d8173
+- transformers_git_sha: 6bdf998dffa70030e42f512a586f33a15e648edd
 
 - port_machine: brutasse
 
-- port_time: 2020-08-18-01:48
+- port_time: 2020-08-19-00:09
