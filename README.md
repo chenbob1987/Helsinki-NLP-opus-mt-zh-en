@@ -1,7 +1,7 @@
 ---
 language: 
--zh
--en
+- zh
+- en
 
 tags:
 - translation
@@ -90,8 +90,8 @@ license: apache-2.0
 
 - helsinki_git_sha: 480fcbe0ee1bf4774bcbe6226ad9f58e63f6c535
 
-- transformers_git_sha: 6bdf998dffa70030e42f512a586f33a15e648edd
+- transformers_git_sha: 2207e5d8cb224e954a7cba69fa4ac2309e9ff30b
 
 - port_machine: brutasse
 
-- port_time: 2020-08-19-00:09
+- port_time: 2020-08-21-14:41
