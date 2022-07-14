@@ -6,7 +6,7 @@ language:
 tags:
 - translation
 
-license: apache-2.0
+license: cc-by-4.0
 ---
 
 ### zho-eng
@@ -27,7 +27,7 @@ license: apache-2.0
 - **Language(s):**  
   - Source Language:  Chinese
   - Target Language: English
-- **License:** Apache-2.0
+- **License:** CC-BY-4.0
 - **Resources for more information:**
   - [GitHub Repo](https://github.com/Helsinki-NLP/OPUS-MT-train)
 
